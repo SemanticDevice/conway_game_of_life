@@ -1,5 +1,14 @@
 /**
 * Conway's Game of Life
+*
+* Controls:
+*
+*   'S' = start/stop simulation
+*   'Z' = slow down simulation
+*   'X' = speed up simulation
+*   'C' = clear the board
+*   Left Mouse Button = Set a cell -- make a cell alive
+*   Right Mouse Button  = Clear a cell -- kill a cell -- make it dead
 */
 #include <stdbool.h>
 #include "raylib.h"
